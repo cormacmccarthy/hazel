@@ -61,7 +61,7 @@ From now on, the auto updater will ask your Hazel deployment for updates!
 The following environment variables can be used optionally:
 
 - `INTERVAL`: Refreshes the cache every x minutes ([restrictions](https://developer.github.com/changes/2012-10-14-rate-limit-changes/))
-- `PRE`: When defined with a value of `1`, only pre-releases will be cached
+- `SERVE_PRERELEASES`: When defined with a value of `1`, pre-releases will also be cached
 - `TOKEN`: Your GitHub token (for private repos)
 - `URL`: The server's URL (for private repos - when running on [Now](https://zeit.co/now), this field is filled with the URL of the deployment automatically)
 
